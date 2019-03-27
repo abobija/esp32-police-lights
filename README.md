@@ -6,6 +6,9 @@ Using ESP32 for this kind of projects is obviously overkill but why not, let's p
 ## Usage
 There is a interesting Lua class [`police-lights.lua`](https://github.com/abobija/esp32-police-lights/blob/master/police-lights.lua#L1) that I've written lately for making a LED dance choreography. All that is needed for making police lights effect is to pass a informations, to the `create` method, about blue and red LEDs PINs along with a choreography pattern, and  the Light Show can start.
 
+## Demo
+[![Police Lights Effect, police-lights.lua)](https://img.youtube.com/vi/Ao2iFeG7ehg/mqdefault.jpg)](https://www.youtube.com/watch?v=Ao2iFeG7ehg)
+
 ## Examples
 
 Note: When all steps from the pattern are over, the pattern will be automatically restarted.

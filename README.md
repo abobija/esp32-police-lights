@@ -8,7 +8,7 @@ There is interesting Lua class [`police-lights.lua`](https://github.com/abobija/
 
 ## Examples
 
-When all steps from the pattern are over, the pattern will be automatically restarted.
+Note: When all steps from the pattern are over, the pattern will be automatically restarted.
 
 ### Pattern 1
 

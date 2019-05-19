@@ -19,7 +19,7 @@ Note: When all steps from the pattern are over, the pattern will be automaticall
 - Blue led OFF, and red led ON. Hold that state for 100ms. Then both leds OFF for 50ms (default). Repeat that 3 times.
 - Both leds ON. Hold that state for 100ms. Then both leds OFF for 200ms. Repeat that 3 times.
 
-```
+```lua
 require('police-lights').create({
     blue_pin = 12,
     red_pin  = 13,
@@ -35,7 +35,7 @@ require('police-lights').create({
 
 - Both leds ON. Hold that state for 1 sec. Then both leds OFF for 1 sec.
 
-```
+```lua
 require('police-lights').create({
     blue_pin = 12,
     red_pin  = 13,
